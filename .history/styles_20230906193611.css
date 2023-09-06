@@ -179,12 +179,8 @@
     .sec4Text{
         text-align: center;
     }
-    .sec4imageddiv,#section4image1{
+    .sec4imageddiv,#section4image1,#section4image2{
         width:100%;
-    }
-    #section4image2{
-        width: 50%;
-        height: 40%;
     }
     
 }
@@ -214,11 +210,7 @@
     .sec4Text{
         text-align: center;
     }
-    .sec4imageddiv,#section4image1{
+    .sec4imageddiv,#section4image1,#section4image2{
         width:100%;
-    }
-    #section4image2{
-        width: 50%;
-        height: 40%;
     }
 }

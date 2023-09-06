@@ -70,10 +70,8 @@
 }
 .sec3image{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px ;
-    column-gap: 1rem;
-
+    justify-content: space-around;
+    gap: 1.5rem;
 }
 .sec3imagediv{
             position: relative;
@@ -85,7 +83,7 @@
     margin-top: 20px;
     padding-top:2px;
     width: 100%;
-    height: 350px
+    height: 70%;
 }
 .image{
     border: 3px solid transparent;
@@ -130,38 +128,27 @@
 .Section-4{
     justify-content: space-around;
 }
-.sec4Text{
-    padding-left:200px;
-    padding-right: 100px;
-}
 .sec4imageddiv{
-    position: relative;
-    top: 0;
-    left: 0;
+    padding-left:100px;
+}
+.sec4Text{
+    padding-left:100px;
 }
 #section4image1{
-    padding-left: 100px;
-    height: auto;
     width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
+    height: auto;
 }
 #section4image2{
-    position: relative;
-    top: -180px;
-    left: 450px;
-    height: 50%;
-    width:40%
-
+   margin-top: -250px;
 }
+
 /* Responsive */
 /*Tab*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .nav,.menupart2{
         flex-direction: column;
     }
-    .Section-2,.Section-4{
+    .Section-2{
         flex-direction: column-reverse;
     }
     #sec2image img{
@@ -173,27 +160,13 @@
         padding-top:2px;
         gap: 1rem;
     }
-    .sec4Text,#section4image1{
-        padding: 1rem;
-    }
-    .sec4Text{
-        text-align: center;
-    }
-    .sec4imageddiv,#section4image1{
-        width:100%;
-    }
-    #section4image2{
-        width: 50%;
-        height: 40%;
-    }
-    
 }
 /*MOBILE*/
 @media screen and (max-width: 768px) {
     .nav,.menupart2{
         flex-direction: column;
     }
-    .Section-2,.Section-4{
+    .Section-2{
         flex-direction: column-reverse;
     }
     #sec2image img{
@@ -207,18 +180,5 @@
         padding-top:2px;
         gap: .5rem;
         height: 95%;
-    }
-    .sec4Text,#section4image1{
-        padding: 1rem;
-    }
-    .sec4Text{
-        text-align: center;
-    }
-    .sec4imageddiv,#section4image1{
-        width:100%;
-    }
-    #section4image2{
-        width: 50%;
-        height: 40%;
     }
 }
