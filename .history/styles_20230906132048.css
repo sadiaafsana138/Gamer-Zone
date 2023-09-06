@@ -6,11 +6,9 @@
 .menupart1,.menupart2,.nav{
     display: flex;
 }
-.menupart1,.menupart2{
+.menupart1{
     place-items: center ;
 }
 .menupart2{
-    list-style-type: none;
-    gap: 20px;
-
+    text-decoration: none;
 }

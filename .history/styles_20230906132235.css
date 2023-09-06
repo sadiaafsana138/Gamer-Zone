@@ -10,7 +10,7 @@
     place-items: center ;
 }
 .menupart2{
-    list-style-type: none;
+    text-decoration: none;
     gap: 20px;
 
 }

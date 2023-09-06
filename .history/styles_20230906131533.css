@@ -1,0 +1,12 @@
+/* Navbar*/
+
+.pink-Color{
+    color: rgb(235, 55, 166);
+}
+.menupart1,.menupart2{
+    display: flex;
+}
+.menupart2{
+    text-decoration: none;
+
+}
