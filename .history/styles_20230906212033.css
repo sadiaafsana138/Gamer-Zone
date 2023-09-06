@@ -174,12 +174,15 @@
   
 .sec5 {
     display: grid;
-    grid-template-columns:repeat(5,1fr) ;
+    grid-template-columns: repeat(5, 1fr); 
     gap: 20px; 
     padding: 2rem;
     justify-content: center;
 }
-
+.sec5 .logo:nth-child(n+6) {
+    grid-column: span 1;
+    grid-row: 2; /* Place in the second row */
+  }
 /* Responsive */
 /*Tab*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -210,11 +213,6 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(3,1fr);
     }
     
 }
@@ -250,11 +248,5 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
     }
 }

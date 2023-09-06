@@ -174,11 +174,16 @@
   
 .sec5 {
     display: grid;
-    grid-template-columns:repeat(5,1fr) ;
+    grid-template-columns: repeat(5, 1fr); 
     gap: 20px; 
     padding: 2rem;
-    justify-content: center;
 }
+.logo:nth-last-child(-n+4) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    justify-self: center;
+  }  
+
 
 /* Responsive */
 /*Tab*/
@@ -210,11 +215,6 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(3,1fr);
     }
     
 }
@@ -250,11 +250,5 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
     }
 }

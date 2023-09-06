@@ -174,7 +174,7 @@
   
 .sec5 {
     display: grid;
-    grid-template-columns:repeat(5,1fr) ;
+    grid-template-columns:repeat(5,calc(9/10)fr) ;
     gap: 20px; 
     padding: 2rem;
     justify-content: center;
@@ -211,11 +211,6 @@
         width: 50%;
         height: 40%;
     }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(3,1fr);
-    }
     
 }
 /*MOBILE*/
@@ -250,11 +245,5 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
     }
 }

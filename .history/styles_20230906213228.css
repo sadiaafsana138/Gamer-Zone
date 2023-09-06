@@ -212,7 +212,6 @@
         height: 40%;
     }
     .sec5{
-        gap: 2px; 
         width:100%;
         grid-template-columns: repeat(3,1fr);
     }
@@ -254,7 +253,6 @@
     .sec5{
         gap: 2px; 
         width:100%;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
+        grid-template-columns: repeat(3,1fr);
     }
 }

@@ -21,9 +21,13 @@
     padding: 1rem;
 }
 /* Navbar*/
-.menupart1,.menupart2,.nav,.Sec2list,.Section-2,.Section-4,.logo{
+.menupart1,.menupart2,.nav,.Sec2list,.Section-2,.Section-4,.section-5{
     display: flex;
     place-items: center ;
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
 }
 .menupart1,.menupart2{
     place-items: center ;
@@ -172,13 +176,8 @@
     border-color: rgb(241, 130, 149);
   }
   
-.sec5 {
-    display: grid;
-    grid-template-columns:repeat(5,1fr) ;
-    gap: 20px; 
-    padding: 2rem;
-    justify-content: center;
-}
+  
+
 
 /* Responsive */
 /*Tab*/
@@ -210,11 +209,6 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(3,1fr);
     }
     
 }
@@ -250,11 +244,5 @@
     #section4image2{
         width: 50%;
         height: 40%;
-    }
-    .sec5{
-        gap: 2px; 
-        width:100%;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
     }
 }
