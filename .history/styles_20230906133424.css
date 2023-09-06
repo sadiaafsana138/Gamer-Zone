@@ -1,0 +1,23 @@
+/* Navbar*/
+
+.pink-Color{
+    color: rgb(235, 55, 166);
+}
+#ash{
+    background-color: rgb(224, 224, 224);
+    padding: 1rem;
+}
+.menupart1,.menupart2,.nav{
+    display: flex;
+}
+.menupart1,.menupart2{
+    place-items: center ;
+}
+.menupart1{
+    gap: .8 rem;
+}
+.menupart2{
+    list-style-type: none;
+    gap: 2rem;
+
+}

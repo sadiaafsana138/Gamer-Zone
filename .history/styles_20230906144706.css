@@ -51,7 +51,7 @@
     background-color: deeppink;
 }
 #btn-primary2{
-    background-color: rgb(60, 214, 214);
+    background-color: cyan;
 }
 /* Responsive */
 /*Tab*/
@@ -59,24 +59,10 @@
     .nav,.menupart2{
         flex-direction: column;
     }
-    .Section-2{
-        flex-direction: column-reverse;
-    }
-    #sec2image img{
-        max-width: 100%;
-        height: auto;
-    }
 }
 /*MOBILE*/
 @media screen and (max-width: 768px) {
     .nav,.menupart2{
         flex-direction: column;
-    }
-    .Section-2{
-        flex-direction: column-reverse;
-    }
-    #sec2image img{
-        max-width: 100%;
-        height: auto;
     }
 }

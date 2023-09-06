@@ -62,7 +62,7 @@
     .Section-2{
         flex-direction: column-reverse;
     }
-    #sec2image img{
+    #sec2image{
         max-width: 100%;
         height: auto;
     }
@@ -75,7 +75,7 @@
     .Section-2{
         flex-direction: column-reverse;
     }
-    #sec2image img{
+    #sec2image{
         max-width: 100%;
         height: auto;
     }

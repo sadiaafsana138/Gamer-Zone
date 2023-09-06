@@ -62,10 +62,6 @@
     .Section-2{
         flex-direction: column-reverse;
     }
-    #sec2image img{
-        max-width: 100%;
-        height: auto;
-    }
 }
 /*MOBILE*/
 @media screen and (max-width: 768px) {
@@ -74,9 +70,5 @@
     }
     .Section-2{
         flex-direction: column-reverse;
-    }
-    #sec2image img{
-        max-width: 100%;
-        height: auto;
     }
 }
