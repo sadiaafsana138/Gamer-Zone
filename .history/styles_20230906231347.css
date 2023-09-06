@@ -24,9 +24,15 @@
     padding: 1rem;
 }
 /* Navbar*/
-.menupart1,.menupart2,.nav,.Sec2list,.Section-2,.Section-4,.logo{
+.menupart1,.menupart2,.nav,.Sec2list,.Section-2,.Section-4,.logo,.sec5-1,.sec5-2,.logos{
     display: flex;
     place-items: center ;
+}
+.sec5-1,.sec5-2{
+    justify-content: space-around;
+}
+.logos{
+
 }
 .menupart1,.menupart2{
     place-items: center ;
@@ -170,7 +176,7 @@
     transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
     padding: 10px;
 }
-.logo:hover {
+.logos:hover {
     cursor: pointer; 
     border-color: rgb(241, 130, 149);
   }
@@ -250,7 +256,7 @@
         position: relative;
         top: -150px;
         left: 350px;
-        height: 350px;
+        height: 200px;
         width:40%;
        
     }
@@ -260,7 +266,6 @@
         width:100%;
         grid-template-columns: repeat(3,1fr);
     }
-    
     
 }
 /*MOBILE*/
@@ -327,6 +332,5 @@
         flex-wrap: wrap;
         
     }
-    
     
 }

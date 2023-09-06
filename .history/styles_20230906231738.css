@@ -28,6 +28,9 @@
     display: flex;
     place-items: center ;
 }
+.sec5-1,.sec5-2{
+    justify-content: space-around;
+}
 .menupart1,.menupart2{
     place-items: center ;
     margin: auto;
@@ -174,6 +177,10 @@
     cursor: pointer; 
     border-color: rgb(241, 130, 149);
   }
+.logos:hover {
+    cursor: pointer; 
+    border-color: rgb(241, 130, 149);
+  }
   
 .sec5 {
     display: grid;
@@ -250,7 +257,7 @@
         position: relative;
         top: -150px;
         left: 350px;
-        height: 350px;
+        height: 200px;
         width:40%;
        
     }

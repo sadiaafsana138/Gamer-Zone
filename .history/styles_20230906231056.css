@@ -24,9 +24,12 @@
     padding: 1rem;
 }
 /* Navbar*/
-.menupart1,.menupart2,.nav,.Sec2list,.Section-2,.Section-4,.logo{
+.menupart1,.menupart2,.nav,.Sec2list,.Section-2,.Section-4,.logo,.sec5-1,.sec5-2{
     display: flex;
     place-items: center ;
+}
+.sec5-1,.sec5-2{
+    justify-content: space-around;
 }
 .menupart1,.menupart2{
     place-items: center ;
@@ -162,7 +165,7 @@
     justify-content: space-around;
     margin-bottom: 10px;
 }
-.logo,.logos{
+.logo{
     border: 3px solid transparent;
     border-radius: 45%;
     place-items: center;
@@ -250,7 +253,7 @@
         position: relative;
         top: -150px;
         left: 350px;
-        height: 350px;
+        height: 200px;
         width:40%;
        
     }
@@ -260,7 +263,6 @@
         width:100%;
         grid-template-columns: repeat(3,1fr);
     }
-    
     
 }
 /*MOBILE*/
@@ -327,6 +329,5 @@
         flex-wrap: wrap;
         
     }
-    
     
 }
