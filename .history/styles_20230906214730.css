@@ -9,9 +9,6 @@
 .ashtext{
     color: dimgray;
 }
-.white{
-    color: #ffffff;
-}
 .grad{
     margin-top:10px;
     font-size: 3rem;
@@ -183,31 +180,6 @@
     justify-content: center;
 }
 
-/*Footer*/
-.Section-6{
-    background-color: rgb(0, 0, 0);
-    height: 300px;
-    
-   justify-content: center;
-   align-items: center;
-}
-.Bannerhead,.bannerItem{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bannerItem{
-    padding-top: 20px;
-    gap:50px;
-    list-style-type:none;
-}
-
-
-
-
-
-
 /* Responsive */
 /*Tab*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -226,36 +198,20 @@
         padding-top:2px;
         gap: 1rem;
     }
+    .sec4Text,#section4image1{
+        padding: 1rem;
+    }
     .sec4Text{
         text-align: center;
+    }
+    .sec4imageddiv,#section4image1{
+        width:100%;
     }
     #section4image2{
         width: 50%;
         height: 40%;
     }
-    .sec4imageddiv{
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    #section4image1{
-        padding:5px;
-        height: auto;
-        width: 70%;
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    #section4image2{
-        position: relative;
-        top: -150px;
-        left: 350px;
-        height: 200px;
-        width:40%;
-       
-    }
     .sec5{
-        padding: 0%;
         gap: 2px; 
         width:100%;
         grid-template-columns: repeat(3,1fr);
@@ -278,52 +234,34 @@
         flex-direction: column;
     }
     .sec3imagediv img{
+        padding-top:2px;
         gap: .5rem;
         height: 95%;
-        padding: 2px auto 0px;
+    }
+    .sec4Text,#section4image1{
+        padding: 1rem;
     }
     .sec4Text{
         text-align: center;
-        padding: 0%;
     }
-    #section4image2{
-        width: 50%;
-        height: 40%;
-    }
-    .sec4imageddiv{
-        position: relative;
-        top: 0;
-        left: 0;
+    .sec4imageddiv,#section4image1{
+        width:100%;
     }
     #section4image1{
-        padding:5px;
-        height: auto;
-        width: 70%;
-        position: relative;
-        top: 0;
-        left: 0;
+        height: 400px;
+       padding-right: 0px;
+        
     }
     #section4image2{
-        position: relative;
-        top: -130px;
-        left: 200px;
-        height: 200px;
-        width:40%;
-       
+        margin-left:-250px;
+        width: 50%;
+        height: 40%;
     }
     .sec5{
         gap: 2px; 
         width:100%;
         grid-template-columns: repeat(2,1fr);
         place-items: center;
-        padding: 0px;
-    }
-    .Section-6{
-        height:auto;
-        padding-bottom: 50px;
-    }
-    .bannerItem{
-        flex-wrap: wrap;
-        
+        padding: 0%;
     }
 }

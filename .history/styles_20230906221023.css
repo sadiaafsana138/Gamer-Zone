@@ -9,9 +9,6 @@
 .ashtext{
     color: dimgray;
 }
-.white{
-    color: #ffffff;
-}
 .grad{
     margin-top:10px;
     font-size: 3rem;
@@ -183,31 +180,6 @@
     justify-content: center;
 }
 
-/*Footer*/
-.Section-6{
-    background-color: rgb(0, 0, 0);
-    height: 300px;
-    
-   justify-content: center;
-   align-items: center;
-}
-.Bannerhead,.bannerItem{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bannerItem{
-    padding-top: 20px;
-    gap:50px;
-    list-style-type:none;
-}
-
-
-
-
-
-
 /* Responsive */
 /*Tab*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -284,7 +256,6 @@
     }
     .sec4Text{
         text-align: center;
-        padding: 0%;
     }
     #section4image2{
         width: 50%;
@@ -305,8 +276,8 @@
     }
     #section4image2{
         position: relative;
-        top: -130px;
-        left: 200px;
+        top: -150px;
+        left: 300px;
         height: 200px;
         width:40%;
        
@@ -316,14 +287,6 @@
         width:100%;
         grid-template-columns: repeat(2,1fr);
         place-items: center;
-        padding: 0px;
-    }
-    .Section-6{
-        height:auto;
-        padding-bottom: 50px;
-    }
-    .bannerItem{
-        flex-wrap: wrap;
-        
+        padding: 10px;
     }
 }

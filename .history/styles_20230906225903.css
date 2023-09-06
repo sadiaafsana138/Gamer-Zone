@@ -319,11 +319,9 @@
         padding: 0px;
     }
     .Section-6{
-        height:auto;
-        padding-bottom: 50px;
+        height: fit-content;
     }
     .bannerItem{
         flex-wrap: wrap;
-        
     }
 }

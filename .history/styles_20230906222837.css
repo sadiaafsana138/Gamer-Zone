@@ -185,28 +185,12 @@
 
 /*Footer*/
 .Section-6{
-    background-color: rgb(0, 0, 0);
-    height: 300px;
-    
-   justify-content: center;
-   align-items: center;
+    background-color: rgb(187, 150, 150);
+    height: 400px;
 }
-.Bannerhead,.bannerItem{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.BannerHeader{
+    place-items: center;
 }
-.bannerItem{
-    padding-top: 20px;
-    gap:50px;
-    list-style-type:none;
-}
-
-
-
-
-
 
 /* Responsive */
 /*Tab*/
@@ -317,13 +301,5 @@
         grid-template-columns: repeat(2,1fr);
         place-items: center;
         padding: 0px;
-    }
-    .Section-6{
-        height:auto;
-        padding-bottom: 50px;
-    }
-    .bannerItem{
-        flex-wrap: wrap;
-        
     }
 }
