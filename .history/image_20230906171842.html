@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Hover Effects</title>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .image {
+            width: 300px; /* Adjust the image width as needed */
+            height: auto; /* To maintain aspect ratio */
+            transition: filter 0.2s ease-in-out;
+        }
+
+        .image-container:hover .image {
+            filter: grayscale(100%); /* Applies a black and white filter to the image */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+
+        .play-button {
+            font-size: 36px;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: 20px;
+            cursor: pointer;
+        }
+
+        .watch-now-text {
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img class="image" src="images/4.png" alt="Your Image">
+        <div class="overlay">
+            <div class="play-button">&#9654;</div>
+            <div class="watch-now-text">Watch Now</div>
+        </div>
+    </div>
+</body>
+</html>

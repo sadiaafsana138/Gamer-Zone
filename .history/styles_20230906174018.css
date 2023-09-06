@@ -103,9 +103,11 @@
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
+
 .sec3imagediv:hover .overlay {
     opacity: 1;
 }
+
 .play-button {
     font-size: 22px;
     background-color: black;
@@ -115,13 +117,14 @@
     cursor: pointer;
     height: 28px;
     width: 28px;
-    margin-left: 20px;
 }
+
 .watch-now-text {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 /* Responsive */

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Hover Effects</title>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .image {
+            width: 300px; /* Adjust the image width as needed */
+            height: auto; /* To maintain aspect ratio */
+            transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+        }
+
+        .image-container:hover .image {
+            filter: brightness(50%); /* Applies a black-and-white filter */
+            transform: scale(1.1); /* Zoom in slightly */
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: pink;
+            border-radius: 50%;
+            padding: 20px;
+            color: white;
+            cursor: pointer;
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+        }
+
+        .image-container:hover .play-button {
+            opacity: 1;
+        }
+
+        .play-button .watch-now-text {
+            text-align: center;
+            background-color: pink;
+            padding: 10px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 10px; /* Add some margin to create a gap */
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+        }
+
+        .image-container:hover .play-button .watch-now-text {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img class="image" src="images/3.png" alt="Your Image">
+        <div class="play-button">
+            &#9654;
+            <div class="watch-now-text">Watch Now</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Hover Effects</title>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .image {
+            width: 300px; /* Adjust the image width as needed */
+            height: auto; /* To maintain aspect ratio */
+            border: 3px solid transparent;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .image-container:hover .image {
+            border: 3px solid pink;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: pink;
+            border-radius: 50%;
+            padding: 20px;
+            color: white;
+            cursor: pointer;
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+        }
+
+        .image-container:hover .play-button {
+            opacity: 1;
+        }
+
+        .watch-now-button {
+            text-align: center;
+            background-color: pink;
+            padding: 10px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+        }
+
+        .image-container:hover .watch-now-button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img class="image" src="your-image.jpg" alt="Your Image">
+        <div class="play-button">&#9654;</div>
+        <div class="watch-now-button">Watch Now</div>
+    </div>
+</body>
+</html>
